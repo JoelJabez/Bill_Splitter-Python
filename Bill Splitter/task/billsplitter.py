@@ -23,9 +23,12 @@ def main():
     print()
     if is_lucky_feature_used == "Yes":
         index = randint(0, number_of_friends)
-        print(f"{friends_list[index]} is the lucky one!")
+        lucky_friend = friends_list[index]
+        print(f"{lucky_friend} is the lucky one!")
+        split_bill(friends, total_bill, number_of_friends - 1, lucky_person=lucky_friend)
     elif is_lucky_feature_used == "No":
         print("No one is going to be lucky")
+        split_bill(friends, total_bill, number_of_friends)
 
 
 
@@ -39,8 +42,11 @@ def get_total_of_bill():
     return int(input("Enter the total bill value\n"))
 
 
-def split_bill(friends, total_bill, number_of_friends):
+def split_bill(friends, total_bill, number_of_friends, lucky_person=""):
+    print()
     friends = {friend: round(total_bill / number_of_friends, 2) for friend in friends}
+    if lucky_person != "":
+        friends[lucky_person] = 0
     print(friends)
 
 

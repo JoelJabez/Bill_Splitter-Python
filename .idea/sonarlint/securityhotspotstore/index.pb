@@ -39,3 +39,15 @@ d
 ,Topics/Dictionary methods/Big family/main.py,5/c/5cee6ef685066cb82e91291511e5c05f797cd170
 r
 BTopics/Dictionary methods/Find age by name in a dictionary/main.py,2/e/2e8f9667c339cde82634efdf2b2b30fb2ad9f026
+h
+8Topics/Operations with dictionary/Extreme Points/main.py,6/d/6d87d98cdc04d8e40b275bab063730722b9d73ae
+|
+LTopics/Operations with dictionary/Generating a dictionary of squares/main.py,a/1/a1e95ed0d1aaf0dcb90c54ee569a00e33f03e0d3
+g
+7Topics/Operations with dictionary/Student lists/main.py,d/0/d0b82d32504199947f461e45e7cc3651e23e021a
+i
+9Topics/Operations with dictionary/Upper and lower/main.py,a/b/ab811142fc7d729301afe97f106291ed5b11e9d9
+d
+4Topics/Operations with dictionary/Dating App/main.py,1/9/190f4d01c4b061d5fe936a98f0e53974a4836810
+o
+?Topics/Operations with dictionary/Dictionary membership/main.py,e/5/e5c351ce4f760efbeaac654ea385378ab39ffae2

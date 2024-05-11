@@ -1,0 +1,24 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9671#comment
+status: Failed
+feedback:
+  message: |
+    Failed. Runtime error
+
+    Error:
+    Traceback (most recent call last):
+      File "/sandbox/main.py", line 19, in <module>
+        _result = select_dates(_dates)
+                  ^^^^^^^^^^^^^^^^^^^^
+      File "/sandbox/main.py", line 6, in select_dates
+        dates += potential_date["name"] + ",".join()
+                                          ^^^^^^^^^^
+    TypeError: str.join() takes exactly one argument (0 given)
+  time: "Sat, 11 May 2024 10:41:17 UTC"
+record: -1
+submission_language: python3
