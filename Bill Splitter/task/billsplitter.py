@@ -12,6 +12,10 @@ def main():
         name_of_friend = input()
         friends[name_of_friend] = 0
 
+    print()
+    total_bill = get_total_of_bill()
+
+    friends = {friend: round(total_bill / number_of_friends, 2) for friend in friends}
     print(friends)
 
 
@@ -20,5 +24,9 @@ def get_number_of_friends():
 
     return number_of_friends if number_of_friends >= 1 else 0
 
+
+def get_total_of_bill():
+    return int(input("Enter the total bill value\n"))
+    
 
 main()
