@@ -1,3 +1,5 @@
+from random import randint
+
 def main():
     friends = {}
     number_of_friends = get_number_of_friends()
@@ -8,15 +10,23 @@ def main():
         return
 
     print("Enter the name of every friend (including you), each on a new line:")
+    friends_list = []
     for _ in range(number_of_friends):
         name_of_friend = input()
-        friends[name_of_friend] = 0
+        friends_list.append(name_of_friend)
+
+    friends = dict.fromkeys(friends_list, 0)
 
     print()
     total_bill = get_total_of_bill()
+    is_lucky_feature_used = get_is_lucky_feature_used()
+    print()
+    if is_lucky_feature_used == "Yes":
+        index = randint(0, number_of_friends)
+        print(f"{friends_list[index]} is the lucky one!")
+    elif is_lucky_feature_used == "No":
+        print("No one is going to be lucky")
 
-    friends = {friend: round(total_bill / number_of_friends, 2) for friend in friends}
-    print(friends)
 
 
 def get_number_of_friends():
@@ -27,6 +37,15 @@ def get_number_of_friends():
 
 def get_total_of_bill():
     return int(input("Enter the total bill value\n"))
-    
+
+
+def split_bill(friends, total_bill, number_of_friends):
+    friends = {friend: round(total_bill / number_of_friends, 2) for friend in friends}
+    print(friends)
+
+
+def get_is_lucky_feature_used():
+    return input("Do you want to use the \"Who is lucky?\" feature? Write Yes/No:\n")
+
 
 main()

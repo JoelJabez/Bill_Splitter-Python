@@ -25,3 +25,17 @@ V
 &Topics/Exceptions/Make it work/main.py,f/3/f37103d000532f4fa84c48edf5b2a5af68eccdf4
 P
  Topics/Exceptions/Theory/main.py,4/a/4a37284e7beaf5d34f1ea89b0857499cdb192a9b
+j
+:Topics/Function, arguments and parameters/Equation/main.py,2/4/246fa445688f804e7efbeac50aed1b0381b7498f
+t
+DTopics/Function, arguments and parameters/Call me by my name/main.py,6/a/6a71daa367bd5e7f21e183c5dc36d154d9f7ccee
+\
+,Topics/Dictionary methods/New groups/main.py,c/4/c41d45d0e8154f17cb3cd5914358cf3c2957578b
+\
+,Topics/Dictionary methods/The Double/main.py,d/6/d654fdbbce0da7484730d65b25ca3279223f764e
+d
+4Topics/Dictionary methods/We Are What We Eat/main.py,9/7/9725de855e349a75dded48555da9f93b12845286
+\
+,Topics/Dictionary methods/Big family/main.py,5/c/5cee6ef685066cb82e91291511e5c05f797cd170
+r
+BTopics/Dictionary methods/Find age by name in a dictionary/main.py,2/e/2e8f9667c339cde82634efdf2b2b30fb2ad9f026
